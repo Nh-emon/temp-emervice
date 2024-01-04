@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emervice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="extra/css/library.css">
+    <link rel="stylesheet" href="extra/css/emervice.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body>
+
+
+
+<!-- start nav -->
+<nav class="flex-between">
+    <div id="site-logo">
+        <a href="emervice.html" class="flex">
+            <h3 id="logoName">Emervice</h3>
+            <i class="fa-solid fa-stethoscope" id="stethoscope-icon"></i>
+        </a>
+    </div>
+    <!-- end site-logo -->
+    <div class="flex">
+      <div id="user-icon">
+         <i class="fa-solid fa-user i-rec max round box-bg" id="dashboard-icon"></i>
+     </div> 
+    <!-- themeBtn here -->
+    <div id="themeBtnContainer" class="flex-center">
+      <i class="fa-solid fa-sun i-rec max round box-bg" id="lightMode"></i>
+      <i class="fa-solid fa-moon i-rec max round box-bg" id="darkMode"></i>
+  </div>  
+    </div>
+
+
+</nav>
+<!-- end nav -->
+
+
+
+
+<!-- start main -->
+<main>
+
+    <div id="services">
+
+<!-- start service-header -->
+       <div id="service-header">
+        <h2 class="t-center font-light">Services</h2>
+       </div>
+<!-- end service-header -->
+
+
+<div id="emergency-service" class="flex-center">
+   <button id="EmergencyModeBtn" class="shadow-max border-min box-bg f14 has_ripple cursor b3">Emergency</button>
+</div>
+
+       <div id="all-service" class="">
+
+        <div id="eachService" class="border-min radius-min shadow-mid"><!-- start eachService -->
+         <div class="service-icon flex-column-center">
+            <i class="fa-solid fa-user-doctor"></i>
+            <p class="service-name b3 f12">Doctor</p>
+         </div>
+         <div class="service-instruction">
+            <p class="">Explore Popular and nearest Doctor</p>
+         </div>
+         <div class="service-others">
+            <a href="page/doctor.html" class="service-link btn mid primary-bg">visit</a>
+         </div>
+        </div><!-- end eachService -->
+
+
+        <div id="eachService" class="border-min radius-min shadow-mid"><!-- start eachService -->
+            <div class="service-icon flex-column-center">
+               <i class="fa-solid fa-hospital grey"></i>
+               <p class="service-name b3 f12">Hospital</p>
+            </div>
+            <div class="service-instruction">
+               <p class="">Explore Popular and nearest Hospital</p>
+            </div>
+            <div class="service-others">
+               <a href="page/hospital.html" class="service-link btn mid primary-bg">visit</a>
+            </div>
+           </div><!-- end eachService -->
+   
+
+        <div id="eachService" class="border-min radius-min shadow-mid"><!-- start eachService -->
+            <div class="service-icon flex-column-center">
+               <i class="fa-solid fa-droplet crimson"></i>
+               <p class="service-name b3 f12">Blood</p>
+            </div>
+            <div class="service-instruction">
+               <p class="">Find Blood from person,BloodBank</p>
+            </div>
+            <div class="service-others">
+               <a href="page/blood.html" class="service-link btn mid primary-bg">visit</a>
+            </div>
+           </div><!-- end eachService -->
+
+           <div id="eachService" class="border-min radius-min shadow-mid"><!-- start eachService -->
+            <div class="service-icon flex-column-center">
+               <i class="fa-solid fa-syringe light-blue"></i>
+               <p class="service-name b3 f12">Medicine</p>
+            </div>
+            <div class="service-instruction">
+               <p class="">Explore any medicine details</p>
+            </div>
+            <div class="service-others">
+               <a href="#" class="service-link btn mid primary-bg">visit</a>
+            </div>
+           </div><!-- end eachService -->
+
+            
+           <div id="eachService" class="border-min radius-min shadow-mid"><!-- start eachService -->
+            <div class="service-icon flex-column-center">
+               <i class="fa-solid fa-truck-medical yellow"></i>
+               <p class="service-name b3 f12">Ambulance</p>
+            </div>
+            <div class="service-instruction">
+               <p class="">nearest ambulance</p>
+            </div>
+            <div class="service-others">
+               <a href="#" class="service-link btn mid primary-bg">visit</a>
+            </div>
+           </div><!-- end eachService -->
+
+
+           <div id="eachService" class="border-min radius-min shadow-mid"><!-- start eachService -->
+            <div class="service-icon flex-column-center">
+               <i class="fa-solid fa-plus font-light"></i>
+               <p class="service-name b3 f12">Others</p>
+            </div>
+            <div class="service-instruction">
+               <p class="">explore other services</p>
+            </div>
+            <div class="service-others">
+               <a href="#" class="service-link btn mid primary-bg">visit</a>
+            </div>
+           </div><!-- end eachService -->
+        
+
+       </div>
+       <!-- end all-service -->
+
+    </div>
+<!-- end services -->
+
+</main>
+<!-- end main -->
+
+
+
+<!-- start dashboard -->
+
+<div id="account-dashboard" class="dis-hide border-max radius-small shadow-max">
+   <div id="dashboard-container" class="w-full flex-column">
+      <div id="user-details" class="w-full">
+         <div class="t-center space-y-mid">
+            <i class="fa-solid fa-user i-rec round large box-bg"></i>
+         </div>
+            <p class="userName f12">Md.Nazmul hossen</p>
+            <p class="userMobile f12">01715059460</p>   
+      </div>
+      <button class="btn min yellow-bg">Admin Panel</button>
+      <div id="authButtons">
+         <a href="page/logIn.html" class="btn min crimson-bg">Log Out</a>
+         <button class="btn min secondary-bg dis-hide">Log In</button>
+      </div>
+   </div>
+   <!-- end dashboard-conainer -->
+</div>
+
+<!-- end dashboard -->
+
+
+<!-- start toastNotificati;on -->
+<div class="toastNotification">
+    </div>
+<!-- end toastNotificaiton -->
+
+
+
+
+
+    <script src="extra/js/theme.js"></script>
+    <script src="extra/js/common.js"></script>
+
+    <!-- by using defer it load the html load -->
+
+</body>
+</html>

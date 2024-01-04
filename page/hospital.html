@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Hospital</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../extra/css/library.css">
+    <link rel="stylesheet" href="../extra/css/common.css">
+    <link rel="stylesheet" href="../extra/css/hospital.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body class="scroll mid">
+
+
+    <nav class="flex-column gap-min">
+
+        <div class="flex-between w-full"><!-- start upper-nav -->
+
+            <div id="site-logo">
+                <a href="../emervice.html" class="flex">
+                    <h3 id="logoName">Emervice</h3>
+                    <i class="fa-solid fa-stethoscope" id="stethoscope-icon"></i>
+                </a>
+            </div>
+
+            <i class="fa-solid fa-chevron-down i-rec round box-bg mid has_ripple dis-hide" id="navMenuBtn"></i>
+
+            <div id="themeBtnContainer" class="flex-center">
+              <i class="fa-solid fa-sun i-rec max round box-bg" id="lightMode"></i>
+              <i class="fa-solid fa-moon i-rec max round box-bg" id="darkMode"></i>
+           </div>  
+
+           </div><!-- end upper-nav -->
+
+
+<!-- start down nav -->
+    
+<div class="flex-center w-full wrap gap-mid dis-hide" id="shortLinks">
+    <li class="shortLink has_ripple"><a href="#hospital-basic">Top</a></li>
+    <li class="shortLink has_ripple"><a href="#doctor-lists">Doctors</a></li>
+    <li class="shortLink has_ripple"><a href="#section-ambulance">Ambulance</a></li>
+    <li class="shortLink has_ripple"><a href="#section-facility">Facility</a></li>
+    <li class="shortLink has_ripple"><a href="#section-price">Pricing</a></li>
+    <li class="shortLink has_ripple"><a href="#section-contact">Contact</a></li>
+    <li class="shortLink has_ripple"><a href="#section-comment">Comment</a></li>
+   </div>    
+<!-- end down nav -->
+
+    </nav>
+    <!-- end nav -->
+    
+    
+
+<!-- start section-searchHospital -->
+<section id="searchHospital" class="">
+    <h2 class="t-center font-light">Explore Hospital</h4>
+    <!-- start sort-drop-down -->
+    <div id="" class="dropDown min flex-column">
+        <div id="" class="selectField flex-between radius-min shadow-min">
+            <p class="optionText">Parameter</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <!-- start option -->
+        <div id="" class="dd-options border-min radius-small shadow-min">
+            <li class="dd-option"><p>nearest</p></li>
+            <li class="dd-option"><p>Popular</p></li>
+        </div>
+        <!-- end options -->
+    </div>
+    <!-- end sort-drop-down -->
+    <!-- start searchBox -->
+    <div id="searchBox">
+        <div id="searchElement">
+            <input type="text" class="text-input max space-y-mid" placeholder="hospital name" id="hospitalNameInput">
+        </div>
+        <button class="btn mid primary-bg has_ripple">search</button>
+    </div>
+    <!-- end searchBox -->
+
+    <!-- start searchResult -->
+    <div id="searchResult" class="space-y-mid">
+        <p class="b3 f16 t-center space-y-mid">Search Result</p>
+        <!-- start hospitalLists -->
+        <div id="hospitalLists">
+
+       <div class="eachHospital flex gap-mid border-min radius-min shadow-mid"><!-- start eachHospital -->
+       <div class="hospitalBanner"><img src="../images/user8.jfif" alt=""></div>
+       <div class="hospital-details">
+        <p class="hospitalName">Dhaka Medical College Hospital,Dhaka</p>
+        <p class="hospitalLocation">karwan Bazar,Dhaka</p>
+       </div>
+       </div><!-- end eachHospital -->
+
+       <div class="eachHospital flex gap-max border-min radius-min shadow-mid"><!-- start eachHospital -->
+       <div class="hospitalBanner"><img src="../images/user8.jfif" alt=""></div>
+       <div class="hospital-details">
+        <p class="hospitalName">Dhaka Medical College Hospital,Dhaka</p>
+        <p class="hospitalLocation">karwan Bazar,Dhaka</p>
+       </div>
+       </div><!-- end eachHospital -->
+
+       <div class="eachHospital flex gap-max border-min radius-min shadow-mid"><!-- start eachHospital -->
+        <div class="hospitalBanner"><img src="../images/user8.jfif" alt=""></div>
+        <div class="hospital-details">
+         <p class="hospitalName">Dhaka Medical College Hospital,Dhaka</p>
+         <p class="hospitalLocation">karwan Bazar,Dhaka</p>
+        </div>
+        </div><!-- end eachHospital -->
+
+    <div class="eachHospital flex gap-max border-min radius-min shadow-mid"><!-- start eachHospital -->
+        <div class="hospitalBanner"><img src="../images/user8.jfif" alt=""></div>
+        <div class="hospital-details">
+         <p class="hospitalName">Dhaka Medical College Hospital,Dhaka</p>
+         <p class="hospitalLocation">karwan Bazar,Dhaka</p>
+        </div>
+            </div><!-- end eachHospital -->
+     
+        <div  class="eachHospital flex gap-max border-min radius-min shadow-mid"><!-- start eachHospital -->
+            <div class="hospitalBanner"><img src="../images/user8.jfif" alt=""></div>
+            <div class="hospital-details">
+             <p class="hospitalName">Dhaka Medical College Hospital,Dhaka</p>
+             <p class="hospitalLocation">karwan Bazar,Dhaka</p>
+            </div>
+            </div><!-- end eachHospital -->
+         
+    <div   class="eachHospital flex gap-max border-min radius-min shadow-mid"><!-- start eachHospital -->
+        <div class="hospitalBanner"><img src="../images/user8.jfif" alt=""></div>
+        <div class="hospital-details">
+         <p class="hospitalName">Dhaka Medical College Hospital,Dhaka</p>
+         <p class="hospitalLocation">karwan Bazar,Dhaka</p>
+        </div>
+        </div><!-- end eachHospital -->
+             
+                            
+
+        </div>
+        <!-- end hospitalLists -->
+    </div>
+    <!-- end searchResult -->
+</section>
+<!-- end section-searchHospital -->
+
+
+<section id="exploreHospital" class="dis-hide">
+
+<!-- start hospital-basic -->
+<div id="hospital-basic" class="w-full">
+
+<!-- start hostpital banner -->
+<div id="s-hospitalBanner" class="space-y-max w-full"><!-- s- means selected -->
+    <img src="../images/user1.jfif" alt=""">
+    <p id="s-hospitalName" class="t-center">Dhaka Medical College Hospital</p>
+</div>
+<!-- end hospital-banner -->
+
+<p id="hospital-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eos illum laudantium explicabo quam corrupti sed, adipisci eligendi ipsam animi quisquam dignissimos ratione cupiditate? Recusandae eveniet, doloremque, nobis quisquam quidem obcaecati vel quas exercitationem velit labore aut non tempora iusto facilis. Sit, sint. Fuga omnis nisi, adipisci minus in nemo reprehenderit, illo vero iure exercitationem dolores architecto cupiditate esse?</p>
+
+</div>
+<!-- end hospital-basic -->
+
+
+
+
+<div id="doctor-lists" class="">
+
+<!-- start doctor-lists-header -->
+    <div id="doctor-lists-header" class="flex-center gap-max">
+        <h1 class="t-center font-light">Doctors</h1>
+        <i class="fa-solid fa-user-doctor f2"></i>      
+    </div>
+<!-- end doctor-lists-header -->
+
+
+<div id="docTypeContainer">
+
+    <div id="doctor-type" class="">
+        <h2 class="font-light space-y-mid">General Practitioner</h2>
+
+         <div id="doctors" class="flex wrap gap-mid">
+
+            <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+            <div id="docImage"><img src="../images/user1.jfif" alt="docImage"></div>
+            <div id="doc-details">
+                <p class="docName">Md.Akash Hossen</p>
+                <p class="docDegree">Mbbs,Ma,BADS</p>
+            </div>
+            </div><!-- end eachDoctor -->
+            <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+                <div id="docImage"><img src="../images/user2.jfif" alt="docImage"></div>
+                <div id="doc-details">
+                    <p class="docName">Md.Akash Hossen</p>
+                    <p class="docDegree">Mbbs,Ma,BADS</p>
+                </div>
+                </div><!-- end eachDoctor -->
+                <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+                    <div id="docImage"><img src="../images/user3.jfif" alt="docImage"></div>
+                    <div id="doc-details">
+                        <p class="docName">Md.Akash Hossen</p>
+                        <p class="docDegree">Mbbs,Ma,BADS</p>
+                    </div>
+                    </div><!-- end eachDoctor -->
+                    <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+                        <div id="docImage"><img src="../images/user4.jfif" alt="docImage"></div>
+                        <div id="doc-details">
+                            <p class="docName">Md.Akash Hossen</p>
+                            <p class="docDegree">Mbbs,Ma,BADS</p>
+                        </div>
+                        </div><!-- end eachDoctor -->
+                        
+
+         </div><!-- end doctors -->
+    </div>
+<!-- end doctor-type -->
+
+<i class="fa-solid fa-chevron-down i-rec round box-bg max has_ripple space-y-max" id="showMoreDoc"></i>      
+
+
+
+<div id="doctor-type" class="">
+    <h2 class="font-light space-y-mid">Cardiologist</h2>
+
+     <div id="doctors" class="flex wrap gap-mid">
+
+        <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+        <div id="docImage"><img src="../images/user5.jfif" alt="docImage"></div>
+        <div id="doc-details">
+            <p class="docName">Md.Akash Hossen</p>
+            <p class="docDegree">Mbbs,Ma,BADS</p>
+        </div>
+        </div><!-- end eachDoctor -->
+        <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+            <div id="docImage"><img src="../images/user6.jfif" alt="docImage"></div>
+            <div id="doc-details">
+                <p class="docName">Md.Akash Hossen</p>
+                <p class="docDegree">Mbbs,Ma,BADS</p>
+            </div>
+            </div><!-- end eachDoctor -->                    
+
+     </div><!-- end doctors -->
+</div>
+<!-- end doctor-type -->
+    <div id="doctor-type" class="">
+        <h2 class="font-light space-y-mid">Neurologist</h2>
+
+         <div id="doctors" class="flex wrap gap-mid">
+
+            <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+            <div id="docImage"><img src="../images/user7.jfif" alt="docImage"></div>
+            <div id="doc-details">
+                <p class="docName">Md.Akash Hossen</p>
+                <p class="docDegree">Mbbs,Ma,BADS</p>
+            </div>
+            </div><!-- end eachDoctor -->
+            <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+                <div id="docImage"><img src="../images/user8.jfif" alt="docImage"></div>
+                <div id="doc-details">
+                    <p class="docName">Md.Akash Hossen</p>
+                    <p class="docDegree">Mbbs,Ma,BADS</p>
+                </div>
+                </div><!-- end eachDoctor -->
+                <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+                    <div id="docImage"><img src="../images/user9.jfif" alt="docImage"></div>
+                    <div id="doc-details">
+                        <p class="docName">Md.Akash Hossen</p>
+                        <p class="docDegree">Mbbs,Ma,BADS</p>
+                    </div>
+                    </div><!-- end eachDoctor -->                        
+
+         </div><!-- end doctors -->
+    </div>
+<!-- end doctor-type -->
+<div id="doctor-type" class="">
+    <h2 class="font-light space-y-mid">Pediatrician</h2>
+
+     <div id="doctors" class="flex wrap gap-mid">
+
+        <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+        <div id="docImage"><img src="../images/user10.jfif" alt="docImage"></div>
+        <div id="doc-details">
+            <p class="docName">Md.Akash Hossen</p>
+            <p class="docDegree">Mbbs,Ma,BADS</p>
+        </div>
+        </div><!-- end eachDoctor -->
+        <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+            <div id="docImage"><img src="../images/user11.jfif" alt="docImage"></div>
+            <div id="doc-details">
+                <p class="docName">Md.Akash Hossen</p>
+                <p class="docDegree">Mbbs,Ma,BADS</p>
+            </div>
+            </div><!-- end eachDoctor -->
+            <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+                <div id="docImage"><img src="../images/user1.jfif" alt="docImage"></div>
+                <div id="doc-details">
+                    <p class="docName">Md.Akash Hossen</p>
+                    <p class="docDegree">Mbbs,Ma,BADS</p>
+                </div>
+                </div><!-- end eachDoctor -->
+                <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+                    <div id="docImage"><img src="../images/user4.jfif" alt="docImage"></div>
+                    <div id="doc-details">
+                        <p class="docName">Md.Akash Hossen</p>
+                        <p class="docDegree">Mbbs,Ma,BADS</p>
+                    </div>
+                    </div><!-- end eachDoctor -->
+                    <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+                        <div id="docImage"><img src="../images/user2.jfif" alt="docImage"></div>
+                        <div id="doc-details">
+                            <p class="docName">Md.Akash Hossen</p>
+                            <p class="docDegree">Mbbs,Ma,BADS</p>
+                        </div>
+                        </div><!-- end eachDoctor -->                        
+
+     </div><!-- end doctors -->
+</div>
+<!-- end doctor-type -->
+<div id="doctor-type" class="">
+    <h2 class="font-light space-y-mid">Orthopedic Surgeon</h2>
+
+     <div id="doctors" class="flex wrap gap-mid">
+
+        <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+        <div id="docImage"><img src="../images/user7.jfif" alt="docImage"></div>
+        <div id="doc-details">
+            <p class="docName">Md.Akash Hossen</p>
+            <p class="docDegree">Mbbs,Ma,BADS</p>
+        </div>
+        </div><!-- end eachDoctor -->
+        <div id="eachDoctor" class="flex a-center gap-mid border-min shadow-mid radius-small">
+            <div id="docImage"><img src="../images/user6.jfif" alt="docImage"></div>
+            <div id="doc-details">
+                <p class="docName">Md.Akash Hossen</p>
+                <p class="docDegree">Mbbs,Ma,BADS</p>
+            </div>
+            </div><!-- end eachDoctor -->                    
+
+     </div><!-- end doctors -->
+</div>
+<!-- end doctor-type -->
+
+
+</div>
+<!-- end docTypeContainer -->
+
+</div>
+<!-- end doctor-lists -->
+
+
+
+
+
+
+<!-- start ambulance section -->
+<div id="section-ambulance" class="">
+
+<!-- start ambulance-header -->
+<div id="doctor-lists-header" class="flex-center gap-max space-y-max">
+    <h1 class="t-center font-light">Ambulance</h1>
+    <i class="fa-solid fa-truck-medical f2 crimson"></i>      
+</div>
+<!-- end ambulance-header -->
+
+
+<div id="carLists" class="flex-center wrap gap-min">
+
+    <div id="eachCar" class="flex a-center box-bg gap-mid border-min radius-min shadow-min">
+    <i class="fa-solid fa-phone f14 font-light"></i>
+     <p>car1</p>
+     <p class="carMob">34343434435</p>
+     <i class="fa-solid fa-clipboard i-rec mid grey-bg white"></i>
+    </div><!-- end eachCar -->
+    <div id="eachCar" class="flex a-center box-bg gap-mid border-min radius-min shadow-min">
+        <i class="fa-solid fa-phone f14 font-light"></i>
+         <p>car1</p>
+         <p class="carMob">34343434435</p>
+         <i class="fa-solid fa-clipboard i-rec mid grey-bg white"></i>
+        </div><!-- end eachCar -->
+        <div id="eachCar" class="flex a-center box-bg gap-mid border-min radius-min shadow-min">
+            <i class="fa-solid fa-phone f14 font-light"></i>
+             <p>car1</p>
+             <p class="carMob">34343434435</p>
+             <i class="fa-solid fa-clipboard i-rec mid grey-bg white"></i>
+            </div><!-- end eachCar -->
+            
+
+</div>
+<!-- end carLists -->
+
+</div>
+<!-- end ambulance section -->
+
+
+
+
+
+<!-- start facility-section -->
+
+<div id="section-facility" class="">
+
+<!-- start facility-header -->
+<div id="" class="flex-center gap-max space-y-max">
+    <h1 class="t-center font-light">Facility</h1>
+    <!-- <i class="fa-solid fa-truck-medical f2 crimson"></i>       -->
+</div>
+<!-- end facility-header -->
+
+
+
+<!-- start facility-table -->
+<div class="flex-center">
+    <table class='' id="facility-table"> 
+        <thead>
+            <tr>
+                <th>facility</td>
+                <th>Number</td>    
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Emergency Department</td>
+                <td>10</td>    
+            </tr>
+            <tr>
+                <td>Intensive Care Unit(ICU)</td>
+                <td>14</td>    
+            </tr>
+            <tr>
+                <td>Operating Room</td>
+                <td>19</td>    
+            </tr>
+            <tr>
+                <td>Radiology Department</td>
+                <td>8</td>    
+            </tr>
+            <tr>
+                <td>Laboratory</td>
+                <td>5</td>    
+            </tr>
+            <tr>
+                <td>Pharmacy</td>
+                <td>3</td>    
+            </tr>
+            <tr>
+                <td>Outpatient Clinics</td>
+                <td>2</td>    
+            </tr>
+            <tr>
+                <td>Maternity ward</td>
+                <td>4</td>    
+            </tr>
+            <tr>
+                <td>Physical Therapy Department</td>
+                <td>1</td>    
+            </tr>
+            <tr>
+                <td>Night Shift</td>
+                <td>On</td>    
+            </tr>
+            <tr>
+                <td>Cafeteria and Nutrition Services</td>
+                <td>Available</td>    
+            </tr>
+
+
+        </tbody>
+
+    </table>
+    
+</div>
+<!-- end facility-table -->
+
+
+
+</div>
+
+
+<!-- end facility-section -->
+
+
+
+
+
+
+
+
+
+<!-- start facility-section -->
+
+<div id="section-price" class="">
+
+    <!-- start pricing-header -->
+    <div id="price-header" class="flex-center gap-max space-y-max">
+        <h1 class="t-center font-light">Pricing</h1>
+        <i class="fa-solid fa-money-check-dollar font-light f2"></i>      
+    </div>
+    <!-- end priceing-header -->
+    
+    
+    
+    <!-- start price-table -->
+    <div class="flex-center">
+        <table class='' id="price-table"> 
+            <thead>
+                <tr>
+                    <th>Service</td>
+                    <th>coast</td>    
+                </tr>
+            </thead>
+    
+            <tbody>
+    
+                <tr>
+                    <td>ICU(per day)</td>
+                    <td>2000</td>    
+                </tr>
+                <tr>
+                    <td>x-ray</td>
+                    <td>1000</td>    
+                </tr>
+                <tr>
+                    <td>MRI</td>
+                    <td>1299</td>    
+                </tr>
+                <tr>
+                    <td>Therapy</td>
+                    <td>500</td>    
+                <tr>
+                    <td>ambulance(inside dhaka)</td>
+                    <td>300</td>    
+                </tr>
+    
+            </tbody>
+    
+        </table>
+        
+    </div>
+    <!-- end price-table -->
+    
+    
+    
+    </div>
+    
+    
+    <!-- end pricing-section -->
+    
+
+
+
+
+<div id="section-contact" class="">
+
+    <!-- start contact-header -->
+    <div id="contact-header" class="flex-center gap-max space-y-max">
+        <h1 class="t-center font-light">Contact</h1>
+        <i class="fa-solid fa-hashTag font-light f2"></i>      
+    </div>
+    <!-- end contact-header -->
+
+
+    <div id="helpLines" class="flex wrap gap-min">
+
+        <div id="helpLine" class="flex a-center box-bg gap-mid border-min radius-min shadow-min">
+            <i class="fa-solid fa-phone f14 font-light"></i>
+             <p>helpLine1</p>
+             <p class="carMob">34343434435</p>
+             <i class="fa-solid fa-clipboard i-rec mid grey-bg white"></i>
+            </div><!-- end eachCar -->
+
+            <div id="helpLine" class="flex a-center box-bg gap-mid border-min radius-min shadow-min">
+                <i class="fa-solid fa-phone f14 font-light"></i>
+                 <p>helpLine2</p>
+                 <p class="carMob">+34343434435</p>
+                 <i class="fa-solid fa-clipboard i-rec mid grey-bg white"></i>
+                </div><!-- end eachCar -->
+       
+    </div>
+<!-- end helpLines -->
+
+<div id="socialLinks" class="flex gap-min wrap space-y-max a-center">
+    <a href="#"><i class="fa-brands fa-facebook i-rec round max box-bg"></i></a>
+    <a href="#"><i class="fa-solid fa-envelope i-rec round max box-bg"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter i-rec round max box-bg"></i></a>
+    <a href="#">website</a>
+
+</div>
+
+
+</div>
+<!-- end section-contact -->
+
+
+
+
+<!-- start section-comment -->
+<div id="section-comment" class="">
+
+    <!-- start contact-header -->
+    <div id="comment-header" class="flex-center gap-max space-y-max">
+        <h1 class="t-center font-light">Comment</h1>
+        <i class="fa-solid fa-comment f2"></i>      
+    </div>
+    <!-- end contact-header -->
+
+<!-- start comment-box -->
+<div id="comment-box">
+    <textarea id="commentInput" class="text-input max" placeholder="your comment"></textarea>
+    <div id="commentButtons" class="flex-column">
+        <button class="btn min crimson-bg space-y-min">submit</button>
+        <button class="btn min box-bg">show comment</button>
+    </div>
+</div>
+<!-- end coment-box -->
+
+
+<!-- start comments -->
+<div id="comments" class="flex wrap space-y-max scroll min border-min radius-min shadow-min box-bg">
+
+    <div id="eachComment" class="flex a-center gap-mid border-min shadow-mid radius-small box-bg">
+        <i class="fa-solid fa-user f14"></i>
+        <div id="comment-details">
+            <p class="commenter">Md.Akash Hossen</p>
+            <p class="commentText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis non maiores iure commodi mollitia?</p>
+        </div>
+        </div><!-- end eachComment -->                    
+
+        <div id="eachComment" class="flex a-center gap-mid border-min shadow-mid radius-small box-bg">
+            <i class="fa-solid fa-user f14"></i>
+            <div id="comment-details">
+                <p class="commenter">Md.Akash Hossen</p>
+                <p class="commentText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis non maiores iure commodi mollitia?</p>
+            </div>
+            </div><!-- end eachComment -->                    
+            <div id="eachComment" class="flex a-center gap-mid border-min shadow-mid radius-small box-bg">
+                <i class="fa-solid fa-user f14"></i>
+                <div id="comment-details">
+                    <p class="commenter">Md.Akash Hossen</p>
+                    <p class="commentText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis non maiores iure commodi mollitia?</p>
+                </div>
+                </div><!-- end eachComment -->                    
+                <div id="eachComment" class="flex a-center gap-mid border-min shadow-mid radius-small box-bg">
+                    <i class="fa-solid fa-user f14"></i>
+                    <div id="comment-details">
+                        <p class="commenter">Md.Akash Hossen</p>
+                        <p class="commentText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis non maiores iure commodi mollitia?</p>
+                    </div>
+                    </div><!-- end eachComment -->                    
+                    <div id="eachComment" class="flex a-center gap-mid border-min shadow-mid radius-small box-bg">
+                        <i class="fa-solid fa-user f14"></i>
+                        <div id="comment-details">
+                            <p class="commenter">Md.Akash Hossen</p>
+                            <p class="commentText">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis non maiores iure commodi mollitia?</p>
+                        </div>
+                        </div><!-- end eachComment -->                    
+
+                    <button class="btn min box-bg">load more</button>                                        
+</div>
+<!-- end comments -->
+</div>
+<!-- end section-comment -->
+
+
+
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+<!-- start toastNotificati;on -->
+<div class="toastNotification">
+    </div>
+<!-- end toastNotificaiton -->
+
+
+
+
+
+    <script src="../extra/js/theme.js"></script>
+    <script src="../extra/js/hospital.js"></script>
+    <!-- by using defer it load the html load -->
+
+</body>
+</html>

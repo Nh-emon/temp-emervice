@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../extra/css/library.css">
+    <link rel="stylesheet" href="../extra/css/signUp.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body class="scroll mid">
+
+<!-- start new code here -->
+<div id="form-container" class="border-min radius-small shadow-mid abs-center">
+    <p class="title t-center font-light">Log In</p>
+
+<!-- start form -->
+    <form action="" id="form" class="flex-column">
+
+        <div id="inputBox">
+            <input class="text-input max" placeholder="mobile" id="mobileInput">   
+         </div>
+ 
+    <div id="inputBox">
+        <input type="password" class="text-input max" placeholder="password" id="password">   
+        <i class="round_btn fa-solid fa-eye abs-right-center " id="eyeBtn"></i>
+     </div>
+
+        <button class="btn mid secondary-bg" type="submit" id="submitBtn">submit</button>
+    </form>
+    <!-- end form -->
+<div id="extra"> <span class="font-light">create a new account? </span><a href="signUp.html">Sign In<i class="fa-solid fa-up-right-from-square space-x-min"></i></a> </div>
+</div>
+<!-- end container -->
+<!-- end end code here -->
+
+
+
+
+
+
+
+<!-- custom -->
+
+<!-- start toastNotificati;on -->
+<div class="toastNotification">
+    </div>
+<!-- end toastNotificaiton -->
+
+    <!-- themeBtn here -->
+<div id="themeBtnContainer" class="flex-center abs-right">
+    <i class="fa-solid fa-sun i-rec mid round box-bg" id="lightMode"></i>
+    <i class="fa-solid fa-moon i-rec mid round box-bg" id="darkMode"></i>
+</div>
+
+    <!-- <script src="checkConnection.js"></script> -->
+   <script src="../extra/js/theme.js"></script>
+    <script src="../extra/js/signUp.js" defer></script>
+    <!-- by using defer it load the html load -->
+<!-- custom -->
+
+
+
+
+</body>
+</html>

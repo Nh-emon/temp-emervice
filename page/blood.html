@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Blood</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../extra/css/library.css">
+    <link rel="stylesheet" href="../extra/css/blood.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body class="scroll mid">
+
+<!-- start nav -->
+<nav class="flex-between">
+    <div id="site-logo">
+        <a href="../emervice.html " class="flex">
+            <h3 id="logoName">Emervice</h3>
+            <i class="fa-solid fa-stethoscope" id="stethoscope-icon"></i>
+        </a>
+    </div>
+    <!-- end site-logo -->
+    <div class="flex">
+    <!-- themeBtn here -->
+    <div id="themeBtnContainer" class="flex-center">
+      <i class="fa-solid fa-sun i-rec max round box-bg" id="lightMode"></i>
+      <i class="fa-solid fa-moon i-rec max round box-bg" id="darkMode"></i>
+  </div>  
+    </div>
+
+</nav>
+<!-- end nav -->
+
+
+
+<main>
+
+    <!-- start blood-group-drop-down -->
+    <div id="" class="dropDown mid flex-column">
+        <div id="" class="selectField flex-between radius-min shadow-min">
+            <p class="optionText">Blood group</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <!-- start option -->
+        <div id="" class="dd-options border-min radius-min scroll min shadow-mid">
+            <li class="dd-option"><p>A+</p></li>
+            <li class="dd-option"><p>A-</p></li>
+            <li class="dd-option"><p>B+</p></li>
+            <li class="dd-option"><p>B-</p></li>
+            <li class="dd-option"><p>AB+</p></li>
+            <li class="dd-option"><p>AB-</p></li>
+            <li class="dd-option"><p>O+</p></li>
+            <li class="dd-option"><p>O-</p></li>
+        </div>
+        <!-- end options -->
+    </div>
+    <!-- end blood-group-drop-down -->
+ 
+<p class="space-y-max t-center f12 b3">people with blood group <span id="bloodType">A+</span></p>
+
+<div id="targetPeoples">
+
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">MD.Rifat</p>
+            <p id="userLocation" class="b2">Borobari,Gazipur,Dhaka</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user2.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Md.Arefin</p>
+            <p id="userLocation" class="b4">Bus station,Tangail</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user4.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Md.Imtiaz Sarker</p>
+            <p id="userLocation" class="b4">Borobari,Gazipur,Dhaka</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user5.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">MD.Sabbir</p>
+            <p id="userLocation" class="b4">TulaTola,Rajshai</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+<div id="eachPeople" class="border-min radius-min shadow-mid"> <!-- start eachPeople -->
+    <div id="user-details" class="flex gap-max">
+        <div id="userImage"><img src="../images/user1.jfif" alt="userImg"></div>
+        <div id="user-others" class="flex-column gap-min">
+            <p id="userName">Emon</p>
+            <p id="userLocation" class="b4">BakerGang,Barishal</p>    
+            <div id="contact" class="flex gap-mid">
+                <span id="mobileNumber" class="b2 box-bg border-min">01905062938</span>
+                <i class="fa-solid fa-clipboard i-rec mid box-bg"></i>
+            </div>        
+        </div>
+    </div>
+</div><!-- end eachPeople -->
+
+
+
+
+</div>
+<!-- end target peoples -->
+
+
+</main>
+
+
+
+
+
+
+
+
+
+<!-- start toastNotificati;on -->
+<div class="toastNotification">
+    </div>
+<!-- end toastNotificaiton -->
+
+
+
+
+    <script src="../extra/js/theme.js"></script>
+    <!-- by using defer it load the html load -->
+
+</body>
+</html>

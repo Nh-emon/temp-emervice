@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../extra/css/library.css">
+    <link rel="stylesheet" href="../extra/css/common.css">
+    <link rel="stylesheet" href="../extra/css/doctor.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body class="scroll mid">
+
+
+<!-- start nav -->
+<nav class="flex-between">
+    <div id="site-logo">
+        <a href="../emervice.html" class="flex">
+            <h3 id="logoName">Emervice</h3>
+            <i class="fa-solid fa-stethoscope" id="stethoscope-icon"></i>
+        </a>
+    </div>
+    <!-- end site-logo -->
+    <div class="flex">
+    <!-- themeBtn here -->
+    <div id="themeBtnContainer" class="flex-center">
+      <i class="fa-solid fa-sun i-rec max round box-bg" id="lightMode"></i>
+      <i class="fa-solid fa-moon i-rec max round box-bg" id="darkMode"></i>
+  </div>  
+    </div>
+
+
+</nav>
+<!-- end nav -->
+
+
+<!-- start main -->
+<main>
+
+
+<!-- start doctor-basic -->
+<div id="doctor-basic" class="w-full">
+
+<!-- start doc-details -->
+<div id="doc-details" class="space-y-mid w-full"><!-- s- means selected -->
+    <img src="../images/user1.jfif" alt=""">
+    <p id="docName" class="t-center">Dr. Md.Akah Hossen</p>
+</div>
+<!-- end doc-details -->
+
+<p id="doctor-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad eos illum laudantium explicabo quam corrupti sed, adipisci eligendi ipsam animi quisquam dignissimos ratione cupiditate? Recusandae eveniet, doloremque, nobis quisquam quidem obcaecati vel quas exercitationem velit labore aut non tempora iusto facilis. Sit, sint. Fuga omnis nisi, adipisci minus in nemo reprehenderit, illo vero iure exercitationem dolores architecto cupiditate esse?</p>
+
+</div>
+<!-- end doctor-basic -->
+
+
+
+
+
+<!-- start section extra-deteails -->
+<div id="section-docExtra-details" class="">
+
+    <!-- start header -->
+    <div id="" class="flex-center gap-max space-y-max">
+        <h1 class="t-center font-light">Details</h1>
+        <!-- <i class="fa-solid fa-truck-medical f2 crimson"></i>       -->
+    </div>
+    <!-- end header -->
+    
+    
+    
+    <!-- start extra-table -->
+    <div class="flex-center">
+        <table class='' id="docExtra-table"> 
+            <thead>
+                <tr>
+                    <th>Parameter</td>
+                    <th>Details</td>    
+                </tr>
+            </thead>
+    
+            <tbody>
+    
+                <tr>
+                    <td>Name</td>
+                    <td>Dr. Md.Akash Hossen</td>    
+                </tr>
+                <tr>
+                    <td>Degree</td>
+                    <td>MBBS,(M.D),(D.O)</td>    
+                </tr>
+                <tr>
+                    <td>Current Institute</td>
+                    <td>Dhaka Medical Collge</td>    
+                </tr>
+                <tr>
+                    <td>Working Hour</td>
+                    <td>11am - 5pm</td>    
+                </tr>
+                <tr>
+                    <td>appoinment</td>
+                    <td>available</td>    
+                </tr>    
+    
+            </tbody>
+    
+        </table>
+        
+    </div>
+    <!-- end extra-table -->
+    
+    
+    </div>
+        
+    <!-- end section-docExtra-details -->
+    
+    
+<!-- start section-appoinment -->    
+<div id="section-appoinment">
+
+ <div id="appoinmentBtn" class="space-y-max">
+    <button class="btn mid primary-bg has_ripple">
+        <span>Appoinment</span>
+        <i class="fa-solid fa-plus"></i>
+    </button>
+ </div>
+
+
+<!-- start appoinment-box -->
+<div id="appoinment-box">
+
+
+
+<div id="dropDowns" class="flex gap-mid">
+
+    <!-- start appoinment-time-dd -->
+    <div id="LocationDD" class="dropDown max flex-column space-y-max">
+        <div id="" class="selectField flex-between radius-min shadow-min">
+            <p class="optionText">Select Location</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <!-- start option -->
+        <div  class="dd-options border-min radius-min scroll min shadow-mid">
+            <li class="dd-option"><p>Dhaka Medical College</p></li>
+            <li class="dd-option"><p>Dhanmondi Medical Unit</p></li>
+            <li class="dd-option"><p>Karwan Bazar Medi house</p></li>
+            </div>
+        <!-- end options -->
+    </div>
+    <!-- end appoinment-location-dd -->
+
+
+
+    <!-- start appoinment-time-dd -->
+    <div id="TimeDD" class="dropDown max flex-column space-y-max">
+        <div id="" class="selectField flex-between radius-min shadow-min">
+            <p class="optionText">Select Time</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <!-- start option -->
+        <div  class="dd-options border-min radius-min scroll min shadow-mid">
+            <li class="dd-option"><p>Sunday,11am - 2pm</p></li>
+            <li class="dd-option"><p>Monday,11am - 2pm</p></li>
+            <li class="dd-option"><p>Wednesday,5pm - 8pm</p></li>
+            <li class="dd-option"><p>Thursday,1am - 5pm</p></li>
+            <li class="dd-option"><p>Friday,8pm - 12am</p></li>
+            </div>
+        <!-- end options -->
+    </div>
+    <!-- end appoinment-location-dd -->
+
+
+
+
+</div>
+<!-- end dropDowns -->
+
+
+<button class="btn min secondary-bg">apply</button>
+
+
+
+
+
+</div>
+<!-- end appoinment-box -->
+</div>
+<!-- end section-appoinment -->
+
+
+
+
+<div id="section-contact" class="">
+
+    <!-- start contact-header -->
+    <div id="contact-header" class="flex-center gap-max space-y-max">
+        <h1 class="t-center font-light">Contact</h1>
+        <i class="fa-solid fa-hashTag font-light f2"></i>      
+    </div>
+    <!-- end contact-header -->
+
+
+    <div id="helpLines" class="flex wrap gap-min">
+
+        <div id="helpLine" class="flex a-center box-bg gap-mid border-min radius-min shadow-min">
+            <i class="fa-solid fa-phone f14 font-light"></i>
+             <p>phone</p>
+             <p class="carMob">34343434435</p>
+             <i class="fa-solid fa-clipboard i-rec mid grey-bg white"></i>
+            </div><!-- end eachCar -->
+
+            <div id="helpLine" class="flex a-center box-bg gap-mid border-min radius-min shadow-min">
+                <i class="fa-solid fa-phone f14 font-light"></i>
+                 <p>phone</p>
+                 <p class="carMob">+34343434435</p>
+                 <i class="fa-solid fa-clipboard i-rec mid grey-bg white"></i>
+                </div><!-- end eachCar -->
+       
+    </div>
+<!-- end helpLines -->
+
+<div id="socialLinks" class="flex gap-min wrap space-y-max a-center">
+    <a href="#"><i class="fa-brands fa-facebook i-rec round max box-bg"></i></a>
+    <a href="#"><i class="fa-solid fa-envelope i-rec round max box-bg"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter i-rec round max box-bg"></i></a>
+</div>
+
+
+</div>
+<!-- end section-contact -->
+
+
+
+
+
+
+
+</main>
+<!-- end main -->
+
+
+
+
+
+
+<!-- start toastNotificati;on -->
+<div class="toastNotification">
+    </div>
+<!-- end toastNotificaiton -->
+
+
+
+
+
+    <script src="../extra/js/theme.js"></script>
+    <!-- by using defer it load the html load -->
+
+</body>
+</html>

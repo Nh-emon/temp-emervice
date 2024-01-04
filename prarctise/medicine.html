@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch Drug Information from OpenTrials API</title>
+</head>
+<body>
+
+<script>
+  // Specify the OpenTrials API endpoint and parameters
+  const openTrialsEndpoint = 'https://api.opentrials.net/v1/search';
+  const drugName = 'aspirin';
+
+  // Build the URL with the specified parameters
+  const url = `${openTrialsEndpoint}?q=${drugName}`;
+
+  // Make the GET request using the fetch function
+  fetch(url)
+    .then(response => {
+      // Check if the request was successful (status code 200)
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      // Parse the JSON response
+      return response.json();
+    })
+    .then(data => {
+      // Handle the data returned from the API
+      console.log('OpenTrials API Response:', data);
+      // You can now access specific information from the 'data' object
+    })
+    .catch(error => {
+      // Handle errors that may occur during the request
+      console.error('Error fetching data from OpenTrials API:', error);
+    });
+</script>
+
+</body>
+</html>

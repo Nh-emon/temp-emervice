@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../extra/css/library.css">
+    <link rel="stylesheet" href="../extra/css/signUp.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+</head>
+<body class="scroll mid">
+
+<!-- start new code here -->
+<div id="form-container" class="border-min radius-small shadow-mid abs-center">
+    <p class="title t-center font-light">Sign Up</p>
+
+<!-- start form -->
+    <form action="" id="form" class="flex-column">
+
+
+        <div id="inputBox">
+           <input class="text-input max" placeholder="name" id="nameInput">   
+        </div>
+        <div id="inputBox">
+            <input class="text-input max" placeholder="mobile" id="mobileInput">   
+         </div>
+         <div id="inputBox">
+            <input class="text-input min" placeholder="age" id="nameInput">   
+         </div>
+
+    <!-- start blood-group-drop-down -->
+     <div id="" class="dropDown mid flex-column">
+        <div id="" class="selectField flex-between radius-min">
+            <p class="optionText">Blood group</p>
+            <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <!-- start option -->
+        <div id="" class="dd-options border-min radius-min scroll min">
+            <li class="dd-option"><p>A+</p></li>
+            <li class="dd-option"><p>A-</p></li>
+            <li class="dd-option"><p>B+</p></li>
+            <li class="dd-option"><p>B-</p></li>
+            <li class="dd-option"><p>AB+</p></li>
+            <li class="dd-option"><p>AB-</p></li>
+            <li class="dd-option"><p>O+</p></li>
+            <li class="dd-option"><p>O-</p></li>
+        </div>
+        <!-- end options -->
+    </div>
+    <!-- end blood-group-drop-down -->
+ 
+    <div id="inputBox">
+        <input type="password" class="text-input max" placeholder="password" id="password">   
+        <i class="round_btn fa-solid fa-eye abs-right-center " id="eyeBtn"></i>
+     </div>
+     <div id="inputBox">
+        <input type="password" class="text-input max" placeholder="confirm password" id="confirmPasswordInput">   
+     </div>
+
+        <button class="btn mid secondary-bg" type="submit" id="submitBtn">submit</button>
+    </form>
+    <!-- end form -->
+<div id="extra"> <span class="font-light">already have an account? </span><a href="logIn.html">log In<i class="fa-solid fa-up-right-from-square space-x-min"></i></a> </div>
+</div>
+<!-- end container -->
+<!-- end end code here -->
+
+
+
+
+
+
+
+<!-- custom -->
+
+<!-- start toastNotificati;on -->
+<div class="toastNotification">
+    </div>
+<!-- end toastNotificaiton -->
+
+    <!-- themeBtn here -->
+<div id="themeBtnContainer" class="flex-center abs-right">
+    <i class="fa-solid fa-sun i-rec mid round box-bg" id="lightMode"></i>
+    <i class="fa-solid fa-moon i-rec mid round box-bg" id="darkMode"></i>
+</div>
+
+    <!-- <script src="checkConnection.js"></script> -->
+   <script src="../extra/js/theme.js"></script>
+    <script src="../extra/js/signUp.js" defer></script>
+    <!-- by using defer it load the html load -->
+<!-- custom -->
+
+
+
+
+</body>
+</html>
